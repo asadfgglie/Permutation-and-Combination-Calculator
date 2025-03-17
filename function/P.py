@@ -8,7 +8,7 @@ def P(n, r):
     return sum
 
 def main():
-    while (True):
+    while True:
         inp = input("Input '/stop' or 'P': ")
         if inp == '/stop':
             exit()

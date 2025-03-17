@@ -9,7 +9,7 @@ def H(n, r):
     return C.C(n + r - 1, r)
 
 def main():
-    while (True):
+    while True:
         inp = input("Input '/stop' or 'H': ")
         if inp == '/stop':
             exit()

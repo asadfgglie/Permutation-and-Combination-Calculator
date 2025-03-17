@@ -10,14 +10,14 @@
     return sum
 
 def main():
-    while(True):
+    while True:
         user_input = input("Input '/stop' or number: ")
-        if (user_input == "/stop"):
+        if user_input == "/stop":
             exit()
         else:
             try:
                 ans = factorial(int(user_input))
-                if (ans):
+                if ans:
                     print(f"{user_input}! = {ans}")
                 else:
                     print("The number is wrong.")

@@ -8,10 +8,10 @@ def C(n, r):
     if r > n / 2:
         r = n - r
 
-    return P.P(n, r) // Factorial.factorial(r)
+    return P.P(n, r) / Factorial.factorial(r)
 
 def main():
-    while (True):
+    while True:
         inp = input("Input '/stop' or 'C': ")
         if inp == '/stop':
             exit()
